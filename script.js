@@ -1,11 +1,13 @@
 const heading = document.getElementById("heading1");
+git add .
+heading.innerHTML = "NEW COLOUR!";
+heading.style.fontSize = "90px";
+slider.disabled = true; 
+
 const slider = document.getElementById('ColourSlide');
 const changeBtn = document.getElementById("ColourChange");
 const randomBtn = document.getElementById("RandomColour");
 
-heading.innerHTML = "NEW COLOUR!";
-heading.style.fontSize = "90px";
-slider.disabled = true; 
 
 changeBtn.onclick = Click;
 function Click() {
